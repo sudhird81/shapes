@@ -40,8 +40,8 @@ const App = () => {
                 </div>
                 <div className={styles["shapesWrap"]}>
                     <Row>
-                        {shapes.map(({ shape, color }) => (
-                            <Shapes shape={shape} color={color} />
+                        {shapes.map(({ shape, color }, index) => (
+                            <Shapes key={index} shape={shape} color={color} />
                         ))}
                     </Row>
                 </div>

@@ -185,6 +185,7 @@ const handleShapeFilterRequest = (state, action) => {
         ) {
             return true;
         }
+        return false;
     });
     return { ...state, shapeFilter, shapes, title: handleTitle(state) };
 };
@@ -226,6 +227,7 @@ const handleColorFilterRequest = (state, action) => {
         ) {
             return true;
         }
+        return false;
     });
     return { ...state, colorFilter, shapes, title: handleTitle(state) };
 };
