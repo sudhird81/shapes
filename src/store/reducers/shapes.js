@@ -110,9 +110,9 @@ const isSingleShapeSelected = ({ shapeFilter }) => {
 };
 // handle shape title according diff cases
 const handleTitle = (state) => {
-    let title = "All items upper";
+    let title = "All items";
     if (isAllColorSelected(state) && isAllShapesSelected(state)) {
-        title = "All items inner";
+        title = "All items";
     } else if (isAllColorSelected(state) && isMultipleShapeSelected(state)) {
         title = "Multiple items";
     } else if (isAllShapesSelected(state) && isMultipleColorSelected(state)) {
