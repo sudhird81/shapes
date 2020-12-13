@@ -1,3 +1,6 @@
+/****************************/
+//Author - Sudhir Dadwal
+/****************************/
 import React from "react";
 import { Col } from "reactstrap";
 import { shapeColor } from "../Shapes/ShapesFunctions";

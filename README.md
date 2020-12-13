@@ -15,3 +15,5 @@
 # Test case commands
 
 -   npm test -- --coverage
+
+Developed by Sudhir Dadwal

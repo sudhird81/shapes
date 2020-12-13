@@ -1,12 +1,15 @@
-import {combineReducers} from 'redux';
-import {shapesReducer} from './shapes';
+/****************************/
+//Author - Sudhir Dadwal
+/****************************/
+import { combineReducers } from "redux";
+import { shapesReducer } from "./shapes";
 
 const appReducer = combineReducers({
-    shapesReducer
+    shapesReducer,
 });
 
-const rootReducer = (state,action) => {
-  return appReducer(state,action);
+const rootReducer = (state, action) => {
+    return appReducer(state, action);
 };
 
 export default rootReducer;
