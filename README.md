@@ -1,4 +1,4 @@
-# instructions
+# Instructions - How to install and setup
 
 # Using Yarn
 
